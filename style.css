@@ -2,37 +2,77 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+.main-area {
+    display: flex;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    width: 36%;
+    padding-left: 105px;
+}
+.logo h2 {
+    margin:0;
+    font-weight: 900;
+    font-size: 36px;
+}
+.main-menu {
+    display: flex;
+    width: 60%;
+}
+.main-menu ul {
+   list-style: none;
+   text-decoration:none;
+   display: flex;
+}
+.main-menu ul li a {
+    padding: 10px 20px;
+    margin: 0 25px;
+    text-decoration: none;  
+    font-size: 17px;
+    font-weight: 700;
+
+}
 .top-area {
     display: flex;
     padding: 50px 0;
 }
+.logo h2{
+    color: #595472;
+}
 .area-1 {
     width: 50%;
-    padding: 8% 0 0 8%;
+    padding: 5% 0 0 8%;
 }
-#h-color {
-    color: blue;
+h2 span {
+    color: #544BE7;
 }
 .area-1 h2 {
     font-size: 70px; 
+    color: #595472;
+    margin: 0 auto;
+}
+.area-1 p {
+    width: 50%;
+    padding-bottom: 30px;
 }
 .btn-1 {
     text-decoration: none;
     background-image: linear-gradient(285deg, #34aeff, blue);
     color: white;
-    padding: 10px 30px;
+    padding: 17px 45px;
     border-radius: 18px;
+    box-shadow: 3px 1px 7px 1px #1e5797;
 }
 .section-2 {
     display: flex;
-    background-image: url(img/7.png);
+    background-image: url(img/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     
 }
 .about-me img {
-    width: 80%;
+    width: 100%;
 }
 .about-me {
     width: 50%;
@@ -41,11 +81,23 @@ body {
 .about-me-2 {
     padding: 8% 5% 1% 10%;
 }
+#about-heading {
+    font-size: 50px;
+    font-weight: 900;
+}
 #my-bio {
     padding: 5% 30% 6% 0%;
 }
 .s-3-title {
     text-align: center;
+}
+.s-3-title h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.s-3-title p {
+    width: 42%;
+    margin: 0px auto;
 }
 .recipies-area {
     display: flex;
@@ -68,7 +120,7 @@ body {
 }
 .section-4 {
     display: flex;
-    box-shadow: 1px 2px 16px 0px grey;
+    box-shadow: 3px 1px 7px 1px #ece9e9;
     margin: 6% 3%;
     border-radius: 12px;
 }
@@ -82,9 +134,10 @@ body {
     font-weight: 900;
     margin: 0px auto;
 }
+
 .footer-area {
-    background-color: #2d2d86;
-    color: #00a4d5;
+    background-color: #000000;
+    color: #EBF8FF;
 }
 .last-area {
     text-align: center;
