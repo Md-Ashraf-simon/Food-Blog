@@ -5,6 +5,7 @@ body {
 .main-area {
     display: flex;
     padding: 20px;
+    background-color: #0f64ff54;
 }
 .logo {
     display: flex;
@@ -15,6 +16,7 @@ body {
     margin:0;
     font-weight: 900;
     font-size: 36px;
+
 }
 .main-menu {
     display: flex;
@@ -29,8 +31,9 @@ body {
     padding: 10px 20px;
     margin: 0 25px;
     text-decoration: none;  
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
+    color:#ffffff;
 
 }
 .top-area {
@@ -38,7 +41,7 @@ body {
     padding: 50px 0;
 }
 .logo h2{
-    color: #595472;
+    color: #ffffff;
 }
 .area-1 {
     width: 50%;
@@ -142,9 +145,6 @@ h2 span {
 .last-area {
     text-align: center;
     padding: 20px 0px 20px 0px;
-}
-#end-title {
-    color: #ffffff;
 }
 .last-area h2 {
     font-weight: 900;
